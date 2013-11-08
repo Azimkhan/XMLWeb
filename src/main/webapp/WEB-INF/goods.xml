@@ -1,0 +1,119 @@
+<categories xmlns="http://epam.com/goods" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://epam.com/goods schema.xsd">
+	<category name="Electronics">
+		<subcategory name="Smartphones">
+
+			<goods name="Apple iPhone 5s">
+				<producer>Apple</producer>
+				<model>IP501</model>
+				<date>2012-09-09</date>
+				<color>White</color>
+				<price>880</price>
+			</goods>
+
+			<goods name="Samsung Galaxy Ace II">
+				<producer>Samsung</producer>
+				<model>GT160</model>
+				<date>2012-04-04</date>
+				<color>Black</color>
+				<price>234</price>
+			</goods>
+
+			<goods name="Apple iPhone 5c">
+				<producer>Apple</producer>
+				<model>IP508</model>
+				<date>2013-09-09</date>
+				<color>Red</color>
+				<price>934</price>
+			</goods>
+
+
+			<goods name="Nokia Lumia 1520">
+				<producer>Nokia</producer>
+				<model>LM152</model>
+				<date>2013-09-09</date>
+				<color>black</color>
+				<price>990</price>
+			</goods>
+
+			<goods name="Nokia Lumia 1320">
+				<producer>Nokia</producer>
+				<model>LM132</model>
+				<date>2013-09-09</date>
+				<color>black</color>
+				<price>890</price>
+			</goods>
+		</subcategory>
+
+		<subcategory name="Notebooks">
+
+			<goods name="Apple MacBook Air ">
+				<producer>Apple</producer>
+				<model>MD223</model>
+				<date>2012-07-10</date>
+				<color>black</color>
+				<price>1200</price>
+			</goods>
+			
+			<goods name="Apple MacBook Air ">
+				<producer>Apple</producer>
+				<model>MD711</model>
+				<date>2012-07-10</date>
+				<color>black</color>
+				<price>1340</price>
+			</goods>
+			
+			<goods name="Apple MacBook Air ">
+				<producer>Apple</producer>
+				<model>MD712</model>
+				<date>2012-07-10</date>
+				<color>black</color>
+				<price>1800</price>
+			</goods>
+			
+			<goods name="HP Pavilion g6">
+				<producer>Hewlett-Packard</producer>
+				<model>HP001</model>
+				<date>2011-09-01</date>
+				<color>White</color>
+				<notInStock>true</notInStock>
+			</goods>
+			
+			<goods name="Ноутбук HP ENVY TouchSmart 15-j026sr ">
+				<producer>Hewlett-Packard</producer>
+				<model>HP002</model>
+				<date>2013-09-09</date>
+				<color>black</color>
+				<price>1743</price>
+			</goods>
+		</subcategory>
+	</category>
+
+	<category name="Books">
+		<subcategory name="Computers and Programming">
+			<goods name="Java. Методы программирования.">
+				<producer>И.Н. Блинов, В.С. Романчик</producer>
+				<model>VE001</model>
+				<date>2013-08-08</date>
+				<color>White</color>
+				<notInStock>true</notInStock>
+			</goods>
+
+			<goods name="The Well-Grounded Rubyist">
+				<producer>David A. Black</producer>
+				<model>WG004</model>
+				<date>2009-07-04</date>
+				<color>Black</color>
+				<price>31</price>
+			</goods>
+			
+			<goods name="Programming Python, 4th Edition">
+				<producer>Mark Lutz</producer>
+				<model>PP004</model>
+				<date>2010-12-01</date>
+				<color>White</color>
+				<price>52</price>
+			</goods>
+		</subcategory>
+	</category>
+</categories>

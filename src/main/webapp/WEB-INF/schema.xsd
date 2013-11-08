@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://epam.com/goods"
+	xmlns:tns="http://epam.com/goods" elementFormDefault="qualified">
+
+	<element name="categories">
+		<complexType>
+			<sequence>
+				<element name="category" type="tns:Category" maxOccurs="unbounded"
+					minOccurs="1" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<!-- category definition -->
+	<complexType name="Category">
+		<sequence>
+			<element name="subcategory" type="tns:SubCategory" minOccurs="1"
+				maxOccurs="unbounded" />
+		</sequence>
+		<attribute name="name" type="string" use="required" />
+
+	</complexType>
+
+	<!-- subcategory definition -->
+	<complexType name="SubCategory">
+		<sequence>
+			<element name="goods" type="tns:Goods" minOccurs="1"
+				maxOccurs="unbounded" />
+		</sequence>
+		<attribute name="name" type="string" use="required" />
+	</complexType>
+
+	<!-- goods definition -->
+	<complexType name="Goods">
+		<sequence>
+
+			<!-- producer -->
+			<element name="producer" type="string" />
+
+			<!-- model -->
+			<element name="model">
+				<simpleType>
+					<restriction base="string">
+						<pattern value="[A-Z]{2}[0-9]{3}" />
+					</restriction>
+				</simpleType>
+			</element>
+
+			<!-- date -->
+			<element name="date" type="date" />
+
+			<!-- color -->
+			<element name="color">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="Red" />
+						<enumeration value="Black" />
+						<enumeration value="White" />
+						<enumeration value="red" />
+						<enumeration value="black" />
+						<enumeration value="white" />
+					</restriction>
+				</simpleType>
+			</element>
+
+			<!-- a choice between price and notInStock -->
+			<choice>
+				<!-- price definition -->
+				<element name="price" type="positiveInteger" />
+
+				<!-- notInStock definition -->
+				<element name="notInStock">
+					<simpleType>
+						<restriction base="string">
+							<!-- only 1 possible value in this case -->
+							<enumeration value="true" />
+						</restriction>
+					</simpleType>
+				</element>
+			</choice>
+		</sequence>
+		<attribute name="name" type="string" use="required" />
+	</complexType>
+</schema>
