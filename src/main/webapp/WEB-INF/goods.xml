@@ -1,5 +1,5 @@
-<categories xmlns="http://epam.com/goods" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://epam.com/goods schema.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<categories xmlns="http://epam.com/goods" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://epam.com/goods schema.xsd">
 	<category name="Electronics">
 		<subcategory name="Smartphones">
 
@@ -116,4 +116,15 @@
 			</goods>
 		</subcategory>
 	</category>
+<category name="test">
+    <subcategory name="test">
+      <goods name="adsf AA001">
+        <producer>adsf</producer>
+        <model>AA001</model>
+        <date>2012-09-12</date>
+        <color>white</color>
+        <price>123</price>
+      </goods>
+    </subcategory>
+  </category>
 </categories>

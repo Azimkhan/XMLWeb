@@ -14,20 +14,13 @@ public class DataCommand implements Command{
 
 	private String filename;
 
-	/**
-	 * @return the filename
-	 */
-	public String getFilename() {
-		return filename;
-	}
+	
 
-
-	/**
-	 * @param filename the filename to set
-	 */
-	public void setFilename(String filename) {
+	public DataCommand(String filename) {
+		super();
 		this.filename = filename;
 	}
+
 
 
 	@Override
