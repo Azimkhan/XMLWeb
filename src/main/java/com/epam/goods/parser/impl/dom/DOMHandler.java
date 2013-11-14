@@ -6,7 +6,8 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.epam.goods.builder.GoodsBuilder;
+import com.epam.goods.builder.CategoriesBuilder;
+import com.epam.goods.document.DocumentConstants;
 import com.epam.goods.model.Category;
 
 /**
@@ -14,7 +15,7 @@ import com.epam.goods.model.Category;
  */
 public class DOMHandler {
 	private Document document;
-	private GoodsBuilder builder = new GoodsBuilder();
+	private CategoriesBuilder builder = new CategoriesBuilder();
 
 	/**
 	 * @param document
@@ -46,7 +47,7 @@ public class DOMHandler {
 	 */
 	public void parseCategory(Node categoryNode){
 		
-		builder.createCategory(categoryNode.getAttributes().getNamedItem("name").getNodeValue());
+		builder.createCategory(categoryNode.getAttributes().getNamedItem(DocumentConstants.ATTRIBUTE_NAME).getNodeValue());
 		NodeList nodeList = categoryNode.getChildNodes();
 		
 		for (int i = 0; i < nodeList.getLength(); i++) {
@@ -62,7 +63,7 @@ public class DOMHandler {
 	 * @param subCategoryNode
 	 */
 	public void parseSubCategory(Node subCategoryNode){
-		builder.createSubCategory(subCategoryNode.getAttributes().getNamedItem("name").getNodeValue());
+		builder.createSubCategory(subCategoryNode.getAttributes().getNamedItem(DocumentConstants.ATTRIBUTE_NAME).getNodeValue());
 		NodeList nodeList = subCategoryNode.getChildNodes();
 		for (int i = 0; i < nodeList.getLength(); i++) {
 			Node cNode = nodeList.item(i);
@@ -77,7 +78,7 @@ public class DOMHandler {
 	 * @param goodsNode
 	 */
 	public void parseGood(Node goodsNode){
-		builder.createGood(goodsNode.getAttributes().getNamedItem("name").getNodeValue());
+		builder.createGood(goodsNode.getAttributes().getNamedItem(DocumentConstants.ATTRIBUTE_NAME).getNodeValue());
 		NodeList nodeList = goodsNode.getChildNodes();
 		
 		for(int i = 0; i < nodeList.getLength(); i++ ){
@@ -88,22 +89,22 @@ public class DOMHandler {
 				
 				switch (cNode.getNodeName()) {
 				
-				case "producer":
+				case DocumentConstants.TAG_PRODUCER:
 					builder.buildProducer(value);
 					break;
-				case "model":
+				case DocumentConstants.TAG_MODEL:
 					builder.buildModel(value);
 					break;
-				case "color":
+				case DocumentConstants.TAG_COLOR:
 					builder.buildColor(value);
 					break;
-				case "date":
+				case DocumentConstants.TAG_DATE:
 					builder.buildDate(value);
 					break;
-				case "notInStock":
+				case DocumentConstants.TAG_NOTINSTOCK:
 					builder.buildNotInStock(value);
 					break;
-				case "price":
+				case DocumentConstants.TAG_PRICE:
 					builder.buildPrice(value);
 					break;
 				

@@ -10,7 +10,7 @@ import com.epam.goods.model.Category;
 import com.epam.goods.parser.factory.GoodsParserFactory;
 import com.epam.goods.parser.iface.GoodsParser;
 
-public class DataCommand implements Command{
+public class DataCommand extends Command{
 
 	private String filename;
 

@@ -6,11 +6,12 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import com.epam.goods.builder.GoodsBuilder;
+import com.epam.goods.builder.CategoriesBuilder;
+import com.epam.goods.document.DocumentConstants;
 import com.epam.goods.model.Category;
 
 public class SAXHandler extends DefaultHandler{
-	private GoodsBuilder builder = new GoodsBuilder();
+	private CategoriesBuilder builder = new CategoriesBuilder();
 	private String nextProperty;
 	
 	/**
@@ -29,22 +30,22 @@ public class SAXHandler extends DefaultHandler{
 			String value = new String(chars, start, end).trim();
 			
 			switch (nextProperty) {
-			case "producer":
+			case DocumentConstants.TAG_PRODUCER:
 				builder.buildProducer(value);
 				break;
-			case "model":
+			case DocumentConstants.TAG_MODEL:
 				builder.buildModel(value);
 				break;
-			case "color":
+			case DocumentConstants.TAG_COLOR:
 				builder.buildColor(value);
 				break;
-			case "date":
+			case DocumentConstants.TAG_DATE:
 				builder.buildDate(value);
 				break;
-			case "notInStock":
+			case DocumentConstants.TAG_NOTINSTOCK:
 				builder.buildNotInStock(value);
 				break;
-			case "price":
+			case DocumentConstants.TAG_PRICE:
 				builder.buildPrice(value);
 				break;
 			}
@@ -62,14 +63,14 @@ public class SAXHandler extends DefaultHandler{
 			Attributes attributes) throws SAXException {
 		
 		switch (qName) {
-		case "category":
-			builder.createCategory(attributes.getValue("name"));
+		case DocumentConstants.TAG_CATEGORY:
+			builder.createCategory(attributes.getValue(DocumentConstants.ATTRIBUTE_NAME));
 			break;
-		case "subcategory":
-			builder.createSubCategory(attributes.getValue("name"));
+		case DocumentConstants.TAG_SUBCATEGORY:
+			builder.createSubCategory(attributes.getValue(DocumentConstants.ATTRIBUTE_NAME));
 			break;
-		case "goods":
-			builder.createGood(attributes.getValue("name"));
+		case DocumentConstants.TAG_GOODS:
+			builder.createGood(attributes.getValue(DocumentConstants.ATTRIBUTE_NAME));
 			break;
 		default:
 			nextProperty = qName;

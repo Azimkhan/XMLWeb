@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<categories xmlns="http://epam.com/goods" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://epam.com/goods schema.xsd">
+	
+  
+
+<category name="test">
+    <subcategory name="test">
+      <goods name="writer-725086009">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1821949320">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1329980298">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-179007274">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer467535380">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-859204681">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1707663646">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer377803681">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1651951811">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1984310364">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer2111101480">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1578340525">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1455102206">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer127940692">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1227025929">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-76599123">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1193754722">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1063008721">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer286507972">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1077662527">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1715254080">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-479038898">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer27153646">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1332104253">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1622852344">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-63189598">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-491978974">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1608065618">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-576795713">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-577520653">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-433840384">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-496344368">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-21030585">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer2133482417">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-952547074">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1018322625">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-202234652">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer2038091462">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1943160972">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1394039493">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-305643269">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer213200651">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer582118777">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer2128989944">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1892632293">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1475270141">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1701104533">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer87944998">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1702210495">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-320672848">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1922584726">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-464470662">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1883031721">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer314077443">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer26006591">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1788228214">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1278602238">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1612564204">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-679573826">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1629722788">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-209088627">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1535149558">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer2129617237">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1465133767">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-2001244584">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1223900321">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1283751229">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1024080583">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer2008583988">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1204216874">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1071156026">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-435861162">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer2005005114">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1374297037">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-914738494">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1197041017">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer958303691">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1192933028">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1856885796">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1910051289">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer673331413">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1303969638">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1565294621">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1235242171">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1923164499">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-67189089">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1245161181">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-1104936436">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-947148774">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1599483932">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer399241111">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1185922190">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer-502918447">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer321097227">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer551735840">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer101150480">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer2068932928">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer1805555952">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    <goods name="writer685582266">
+        <producer>test</producer>
+        <model>AA001</model>
+        <date>2013-11-15</date>
+        <color>white</color>
+        <price>100</price>
+      </goods>
+    </subcategory>
+  </category>
+</categories>

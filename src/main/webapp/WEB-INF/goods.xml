@@ -43,7 +43,14 @@
 				<color>black</color>
 				<price>890</price>
 			</goods>
-		</subcategory>
+		<goods name="HTC Sensation">
+        <producer>HTC</producer>
+        <model>HT001</model>
+        <date>2011-10-12</date>
+        <color>white</color>
+        <price>120</price>
+      </goods>
+    </subcategory>
 
 		<subcategory name="Notebooks">
 
@@ -114,17 +121,35 @@
 				<color>White</color>
 				<price>52</price>
 			</goods>
-		</subcategory>
-	</category>
-<category name="test">
-    <subcategory name="test">
-      <goods name="adsf AA001">
-        <producer>adsf</producer>
-        <model>AA001</model>
-        <date>2012-09-12</date>
+		<goods name="Head First Servlets and JSP, 2nd Edition">
+        <producer>O'Reilly Media</producer>
+        <model>CC009</model>
+        <date>2018-10-12</date>
         <color>white</color>
-        <price>123</price>
+        <price>56</price>
+      </goods>
+    <goods name="Head First Python, 2nd Edition">
+        <producer>O'Reilly Media</producer>
+        <model>PH001</model>
+        <date>2010-01-30</date>
+        <color>white</color>
+        <price>32</price>
+      </goods>
+    
+    </subcategory>
+	
+  </category>
+
+<category name="Vehicles">
+    <subcategory name="Moto">
+      <goods name="Suzuki 2013 Hayabusa">
+        <producer>Suzuki</producer>
+        <model>AA000</model>
+        <date>2013-08-09</date>
+        <color>red</color>
+        <price>14399</price>
       </goods>
     </subcategory>
   </category>
+
 </categories>

@@ -6,12 +6,13 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
-import com.epam.goods.builder.GoodsBuilder;
+import com.epam.goods.builder.CategoriesBuilder;
+import com.epam.goods.document.DocumentConstants;
 import com.epam.goods.model.Category;
 
 public class StAXHandler {
 	private XMLStreamReader reader;
-	private GoodsBuilder builder = new GoodsBuilder();
+	private CategoriesBuilder builder = new CategoriesBuilder();
 	private String nextProperty;
 	
 	public StAXHandler(XMLStreamReader reader){
@@ -47,13 +48,13 @@ public class StAXHandler {
 	public void startElement(){
 		String localName = reader.getLocalName();
 		switch (localName) {
-		case "category":
+		case DocumentConstants.TAG_CATEGORY:
 			builder.createCategory(reader.getAttributeValue(0));
 			break;
-		case "subcategory":
+		case DocumentConstants.TAG_SUBCATEGORY:
 			builder.createSubCategory(reader.getAttributeValue(0));
 			break;
-		case "goods":
+		case DocumentConstants.TAG_GOODS:
 			builder.createGood(reader.getAttributeValue(0));
 			break;
 		default:
@@ -69,22 +70,22 @@ public class StAXHandler {
 		if(nextProperty != null){
 		String value = reader.getText().trim();
 		switch (nextProperty) {
-		case "producer":
+		case DocumentConstants.TAG_PRODUCER:
 			builder.buildProducer(value);
 			break;
-		case "model":
+		case DocumentConstants.TAG_MODEL:
 			builder.buildModel(value);
 			break;
-		case "color":
+		case DocumentConstants.TAG_COLOR:
 			builder.buildColor(value);
 			break;
-		case "date":
+		case DocumentConstants.TAG_DATE:
 			builder.buildDate(value);
 			break;
-		case "notInStock":
+		case DocumentConstants.TAG_NOTINSTOCK:
 			builder.buildNotInStock(value);
 			break;
-		case "price":
+		case DocumentConstants.TAG_PRICE:
 			builder.buildPrice(value);
 			break;
 		}

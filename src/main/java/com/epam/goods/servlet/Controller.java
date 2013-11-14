@@ -24,7 +24,8 @@ public class Controller extends HttpServlet {
 		String dataFilename = getServletConfig().getInitParameter(
 				"data-filename");
 		if (dataFilename != null) {
-			String filename = getServletContext().getRealPath(File.separator) + dataFilename;
+			String filename = getServletContext().getRealPath(File.separator)
+					+ dataFilename;
 			DataCommand dataCommand = new DataCommand(filename);
 			CreateCommand createCommand = new CreateCommand(filename);
 			commands.put("data", dataCommand);
@@ -47,13 +48,30 @@ public class Controller extends HttpServlet {
 		execute(req, resp);
 	}
 
+	/**
+	 * Serve request
+	 * @param request
+	 * @param response
+	 * @throws ServletException
+	 * @throws IOException
+	 */
 	private void execute(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		try {
 			Command command = commands.get(request.getParameter(PARAM));
+			
 			if (command != null) {
-				request.getRequestDispatcher(command.execute(request, response))
-						.forward(request, response);
+				// execute command
+				String path = command.execute(request, response);
+				
+				// if there was no redirection
+				if (!command.isRedirected()) {
+					// then perform forward
+					request.getRequestDispatcher(path).forward(request,
+							response);
+				} else {
+					command.reset();
+				}
 			} else {
 				response.getOutputStream().println("command not found");
 			}
