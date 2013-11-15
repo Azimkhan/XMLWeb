@@ -43,7 +43,6 @@ public class WriteTest {
 			try {
 				writer.write(categoryName, subcategoryName, good);
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			

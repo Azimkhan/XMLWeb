@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.epam.goods.model.Category;
+import com.epam.goods.parser.GoodsParser;
 import com.epam.goods.parser.factory.GoodsParserFactory;
-import com.epam.goods.parser.iface.GoodsParser;
 
 public class DataCommand extends Command{
 
@@ -32,11 +32,11 @@ public class DataCommand extends Command{
 		
 		// Create parser. Allowed values (sax, stax, dom)
 		String paserValue = request.getParameter("parser");
-		GoodsParser parser = factory.create(paserValue != null ? paserValue : "stax", filename);
+		GoodsParser parser = factory.create(paserValue != null ? paserValue : "stax");
 		
 		// Get start time
 		long startTime = System.currentTimeMillis();
-		List<Category> categories = parser.parse();
+		List<Category> categories = parser.parse(filename);
 		
 		// Get end time
 		long endTime = System.currentTimeMillis();

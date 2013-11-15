@@ -1,6 +1,6 @@
 package com.epam.goods.parser.factory;
 
-import com.epam.goods.parser.iface.GoodsParser;
+import com.epam.goods.parser.GoodsParser;
 import com.epam.goods.parser.impl.dom.DOMGoodsParser;
 import com.epam.goods.parser.impl.sax.SAXGoodsParser;
 import com.epam.goods.parser.impl.stax.StAXGoodsParser;
@@ -16,20 +16,19 @@ public class GoodsParserFactory {
 	 * @param filename file to parse
 	 * @return parser
 	 */
-	public GoodsParser create(String name, String filename){
+	public GoodsParser create(String name){
 		switch (name) {
 		case "sax":
-			return new SAXGoodsParser(filename);
+			return new SAXGoodsParser();
 
 		case "stax":
-			return new StAXGoodsParser(filename);
+			return new StAXGoodsParser();
 			
 		case "dom":
-			return new DOMGoodsParser(filename);
+			return new DOMGoodsParser();
 			
 		}
 		
-		// TODO Create own exception
 		throw new RuntimeException("Parser not found");
 	}
 
